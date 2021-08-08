@@ -1,3 +1,11 @@
+An interactive covid application in which you can get information of any country.It will give all details regarding,cases,recovered,deaths.
+
+![image](https://user-images.githubusercontent.com/34640475/128626689-b9fc0e1c-16da-417e-bc69-8cc1fcc64729.png)
+
+We Used leaflet for map and chart-js for graph.Just click on dropdown and select whatever country you want.
+It is complete responsive.Used Material-Ui for beautifull design.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
