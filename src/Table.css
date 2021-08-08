@@ -1,0 +1,36 @@
+.table{
+    margin-top:20px;
+    overflow:scroll;
+    height:400px;
+    color: #6a5d5d;
+    background-color: white;
+   
+}
+
+  .table td {
+    padding: 0.5rem;
+    border: none;
+  }
+  .table tr:nth-of-type(odd) {
+    background-color: #f3f2f8;
+  }
+.table__flagImg{
+    width:20px;
+    object-fit:content;
+    margin-left:auto;
+}
+@media (max-width: 990px) {
+  .table > tr{
+    display:flex;
+    justify-content:space-evenly;
+  }
+  .table__country{
+    flex:0.4
+  }
+  .table__flagImg{
+    flex:0.2;
+  }
+  .table__cases{
+    flex:0.4
+  }
+}

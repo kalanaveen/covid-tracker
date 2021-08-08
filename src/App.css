@@ -1,0 +1,68 @@
+.app{
+    display:flex;
+    justify-content:space-evenly;
+    padding:20px;
+}
+.app__header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom: 20px;
+}
+.app__header > h1 {
+    color: #fc3c3c;
+    font-size: 2rem;
+    position:relative;
+  }
+.app__flagImage{
+    width:20px;
+    object-fit:contain;
+    margin-left:auto;
+}
+.app__cards{
+    display:flex;
+    justify-content:space-between;
+}
+.app__left{
+    flex:0.7;
+    margin-right:7px;
+}
+.app__right{
+    flex:0.3;
+}
+.app__information > h3 {
+    color: #6a5d5d;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .name{
+    color:#6a5d5d;
+    font-size:8px;
+    font-weight:bold;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+  }
+  
+  .app__information > h3:last-of-type {
+    margin-top: 1rem;
+  }
+@media (max-width: 990px) {
+    .app {
+      flex-direction: column;
+    }
+    .app__right{
+      margin-top:10px;
+    }
+  }
+  @media (max-width: 400px){
+    .app__header{
+      flex-direction:column;
+    }
+    .app__cards{
+      justify-content:space-evenly;
+    }
+  }
